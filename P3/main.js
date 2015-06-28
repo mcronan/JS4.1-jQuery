@@ -13,7 +13,8 @@ $(popUp).css({
 	'background-color' : 'red',
 	'overflow' : 'hidden',
 	'position' : 'fixed',
-	'top' : '40px'
+	'top' : '40px',
+	'padding-top' :'40px',
 	
 })
 
@@ -28,7 +29,8 @@ $(closer).text("close").css({
 	'color' : 'white',
 	'margin-left' : 'auto',
 	'margin-right' : 'auto',
-	'padding' : '10% 10% 10% 10%'
+	'padding' : '10% 10% 10% 10%',
+	'z-index' : '10'
 })
 
 
